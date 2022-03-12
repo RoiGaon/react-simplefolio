@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'portfolio-image-new.jpeg',
   paragraphOne:
     'Full Stack Developer with experience from multiple courses in developing, implementing applications and solutions using latest industry adopted technologies and frameworks.',
   paragraphTwo:
@@ -31,19 +31,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'ecommerce.png',
     title: 'Ecommerce-Nextjs',
-    info: '',
-    info2: '',
+    info: 'Ecommerce project built with Shopify and Nextjs using TypeScript and Graphql. Also used Cookies to create a unique checkout for every purchase. In the UI I used Tailwind for all the styling and animations.',
+    info2:
+      'In this project I built demo online shop store that you can interact with such as choosing clothes, size and color on every variant.',
     url: '',
     repo: 'https://github.com/RoiGaon/ecommerce-nextjs', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'memories.png',
     title: 'Memories-MERN',
-    info: '',
-    info2: '',
+    info: 'Memories project built with React in the client side and mongoDB in server side. Also built an authentication and authorization using jwt. In the UI I used materialUI for all the styling.',
+    info2:
+      'This is the project I enjoyed the most to build, it is all about having fun and upload your memories so you can share them with everyone online.',
     url: 'https://memories-mern-react-app.netlify.app',
     repo: 'https://github.com/RoiGaon/Memories', // if no repo, the button will not show up
   },
@@ -58,10 +60,11 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Nextjs-Blog',
-    info: '',
-    info2: '',
+    img: 'blog.png',
+    title: 'Blog-Nextjs',
+    info: 'Blog project built with NextJs using MarkDown(MD) language to make a static site as a blog. Also used mongoDB to store contact informations.',
+    info2:
+      'This project was initialy a private project for myself to store all the new subjects I learned about and transform all the information I learned into a blog where I post about all this new subjects.',
     url: 'https://nextjs-blog-phi-ecru.vercel.app',
     repo: 'https://github.com/RoiGaon/nextjs-blog', // if no repo, the button will not show up
   },
